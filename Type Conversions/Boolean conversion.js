@@ -11,4 +11,4 @@ console.log(someBoolean); // prints out true, as it isnt empty.
 /*
 Note that for string, if the string is not empty then it is 
 evaluates to 'true'. For number values, if it is '1', it is 
-true, and vice versa for '0'.
+true, and vice versa for '0'.*/

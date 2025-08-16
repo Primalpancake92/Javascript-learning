@@ -41,10 +41,9 @@ country:'Finland'
 console.log(userOne == userTwo); // false
 
 /*
-Now you are probably why would this equate to false. Well the answer is simple, they are
-not the same so to speak. This is from the fact that the 'references' are not the same. 
-These two arrays point to two different locations in memory, even though their values 
-are the same, they are not strictly equal. 
+Now you are probably wondering why would this equates to false. Well the answer is simple, 
+they are not the same, in reference. These two arrays point to two different locations in 
+memory, even though their values are the same, they are not strictly equal. 
 
 However, two reference types are equal if their underlying object are equal. Let us use 
 an example.
