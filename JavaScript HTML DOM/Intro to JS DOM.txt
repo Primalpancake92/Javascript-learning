@@ -12,5 +12,11 @@ To interact with the HTML DOM, we must have an HTML document available. For inst
   </body>
 </html>
 
-There is a hierachy within this document, and it goes like this.
+There is a hierachy within this document, and it forms a tree, where the nodes are 
+the tags, the HTML document is the root, the children nodes beneath a parent node,
+and the and set of nodes are at a level of hierarchy. 
 
+Now JavaScript is a powerful tool that is a part of the DOM that allows for the 
+manipulation and modification of HTML elements. These are given in the form of 
+functions and methods, which are often called the HTML DOM Application Programming
+Interface (API).
