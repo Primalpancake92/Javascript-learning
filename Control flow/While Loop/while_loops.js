@@ -3,26 +3,30 @@
 // Let us begin with an example
 
 function iterator(nameArray){
-    names = ""
+    let names = ""
 
-    i = 0
-    n = nameArray.length
-    while (i < n){
+    let i = 0
+    let n = nameArray.length
+    while (i < n) {
         names += nameArray[i] + "\n"
+        i++
     }
 
     return names
 }
 
 function main(){
-    names = []
+    let names = []
 
     while (true){
-        name = String(prompt("Enter some names (enter 'enter' to exit): "))
-        if (names == "enter"){
+        let name = prompt("Enter some names (enter 'enter' to exit): ")
+        if (name === "enter"){
             break
         }
         names.push(name)
     }
-    console.log(iterator(names))
+
+    return iterator(names)
 }
+
+console.log(main())
