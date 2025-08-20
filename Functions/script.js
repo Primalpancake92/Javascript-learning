@@ -28,3 +28,14 @@ function main(){
 }
 
 main()
+
+/*
+Function arguments are pass by values which refers to how they are passed through to the functions.
+
+For primitives a copy of the values are copied in the stack then used by the function, and this 
+change is not reflected outside of the function itself.
+
+For refernce or objects, meaning that the function only points to the object however it does not 
+make changes to it in Javascript. It doesnt actually take in the actual values of that object. Thus,
+the original object values are never changed.
+*/
